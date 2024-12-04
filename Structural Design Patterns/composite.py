@@ -30,7 +30,7 @@ class ClickableItem(Item):
         raise Exception('Кликабельному элементу нельзя добавить подэлемент')
 
     def remove(self, sub_item: Item):
-        raise Exception('У кликабельного элемента не могут быть подээлементы')
+        raise Exception('У кликабельного элемента не могут быть подэлементы')
 
     def display(self):
         print(self._owner_name + self._item_name)
