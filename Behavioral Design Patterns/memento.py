@@ -18,7 +18,7 @@ class ExchangeMemento(IMemento):
         self.__euro = e
 
     def get_dollars(self) -> int:
-        return self.__euro
+        return self.__dollars
 
     def get_euro(self) -> int:
         return self.__euro
@@ -110,7 +110,7 @@ Output:
 Долларов: 8
 Евро: 12
 ---- Восстановление состояния ---------
-Долларов: 11
+Долларов: 9
 Евро: 11
 '''
 
